@@ -76,3 +76,20 @@ Through this task, I gained hands-on experience in identifying common web applic
 
 
 ## output
+
+## sql_injection1
+<img width="1909" height="1002" alt="Image" src="https://github.com/user-attachments/assets/799d1c0c-66c8-4121-ba33-7f67d5e50383" />
+
+## sql_injection2(i got access without proper creditnals)
+
+
+<img width="1909" height="1004" alt="Image" src="https://github.com/user-attachments/assets/cd8eb830-dcd4-464d-a2c2-53e00599ab57" />
+
+## sql_injection3
+
+<img width="1877" height="1001" alt="Image" src="https://github.com/user-attachments/assets/dc4067ce-3c57-491e-bf66-af838e47523f" />
+## xss_test 
+
+<img width="1367" height="535" alt="Image" src="https://github.com/user-attachments/assets/f0854170-90e2-475b-b927-eb58039aaf3d" />
+## xss_test1
+<img width="1385" height="973" alt="Image" src="https://github.com/user-attachments/assets/76d5d73e-76b9-4fff-8264-934a81423812" />
