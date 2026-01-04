@@ -1,0 +1,67 @@
+CODTECH Internship
+Task-3: Security Testing for Web Applications
+
+--------------------------------------------------
+
+1. Objective
+
+The objective of this task is to perform security testing on a sample web application to identify common vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS).
+
+--------------------------------------------------
+
+2. Application Tested
+
+Website URL: http://demo.testfire.net
+
+This is a demo web application used for security testing practice.
+
+--------------------------------------------------
+
+3. Security Testing Performed
+
+3.1 SQL Injection Testing
+
+Test Description:
+SQL Injection allows attackers to bypass authentication by injecting SQL commands into input fields.
+
+Test Performed:
+Entered ' OR '1'='1 in both username and password fields on the login page.
+
+Result:
+Login was successful without valid credentials.
+
+Conclusion:
+The application is vulnerable to SQL Injection.
+
+Mitigation:
+- Use prepared statements
+- Validate and sanitize inputs
+- Do not expose database errors
+
+--------------------------------------------------
+
+3.2 Cross-Site Scripting (XSS) Testing
+
+Test Description:
+XSS allows attackers to execute malicious scripts in a user's browser.
+
+Test Performed:
+Entered <script>alert("XSS")</script> into input fields.
+
+Result:
+The behavior was observed and documented.
+
+Mitigation:
+- Sanitize user input
+- Encode output data
+- Use Content Security Policy (CSP)
+
+--------------------------------------------------
+
+4. Conclusion
+
+Security testing revealed that the application contains SQL Injection vulnerabilities. Proper security controls should be implemented to prevent attacks.
+
+--------------------------------------------------
+
+End of Report
